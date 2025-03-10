@@ -13,5 +13,7 @@ export const Content = styled.div`
     background-color: #fff;
     width: 80%;
     min-height: 350px;
+    border-radius: 10px;
+
 ` 
 

@@ -7,6 +7,7 @@ const App = () => {
     <Container >
       <Content>
         <MyInput/>
+        <MyButton/>
       </Content>
     </Container>
   );
