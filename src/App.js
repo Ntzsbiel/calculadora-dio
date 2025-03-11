@@ -76,14 +76,13 @@ const App = () => {
       setOperation('/')
 
     } else {
-      const divi = Number(firstNumber)/Number(currentNumber);
+      const divi = Number(firstNumber) / Number(currentNumber);
       setCurrentNumber(String(divi))
       setOperation('')
 
     }
 
   }
-
 
   const handleEquals = () => {
 
@@ -103,7 +102,7 @@ const App = () => {
           handleMultNumbers();
           break;
 
-        case'/':
+        case '/':
           handleDiviNumbers();
           break;
 
@@ -121,7 +120,7 @@ const App = () => {
         <Row>
           <MyButton label="0" onClick={() => handleAddNumber('0')} />
           <MyButton label="x" onClick={handleMultNumbers} />
-          <MyButton label="/" onClick={handleDiviNumbers } />
+          <MyButton label="/" onClick={handleDiviNumbers} />
           <MyButton label="C" onClick={() => handleClear()} />
         </Row>
 

@@ -22,6 +22,7 @@ export const InputContainer = styled.div`
         padding: 0 10px;
         outline: none;
 
+
         font-size: 24px;
         font-family: 'Roboto';
         color: #FFF;
